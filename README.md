@@ -6,7 +6,7 @@ Include the date you created this project and README file.
 Replace the Project Title to PS bikeshare (Project 3)  repository for PDSND
 
 ### Description
-Describe what your project is about and what it does
+my project answer interesting questions about it by computing descriptive statistics
 
 ### Files used
 My files used are:
