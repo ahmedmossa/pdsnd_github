@@ -180,8 +180,8 @@ def station_stats(df):
         try:
             for i in range(1):
                  df['Start End'] = df['Start Station'].map(str) + '&' + df['End Station']
-                 popular_start_end = df['Start End'].iloc[x:y,]
-                 print("The 5 row are in used start end station : \n", popular_start_end)
+                 pop_start_end = df['Start End'].iloc[x:y,]
+                 print("The 5 row are in used start end station : \n", pop_start_end)
                  x+=5
                  y+=5
             print('----------------------------------')
@@ -194,8 +194,8 @@ def station_stats(df):
 
     # Display most frequent combination of start station and end station trip
     df['Start End'] = df['Start Station'].map(str) + '&' + df['End Station']
-    popular_start_end = df['Start End'].value_counts().idxmax()
-    print("\nThe most commonly used start station and end station : \n",popular_start_end)
+    pop_start_end = df['Start End'].value_counts().idxmax()
+    print("\nThe most commonly used start station and end station : \n",pop_start_end)
     print('----------------------------------')
 
     print("\nThis took %s seconds." % (time.time() - start_time))
