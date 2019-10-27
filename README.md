@@ -9,7 +9,13 @@ Replace the Project Title to PS bikeshare (Project 3)  repository for PDSND
 Describe what your project is about and what it does
 
 ### Files used
-Include the files used
+My files used are:
+.gitignore
+bikeshare.py
+chicago.csv
+new_york_city.csv
+washington.csv
+README.md
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
