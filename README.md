@@ -18,5 +18,7 @@ washington.csv
 README.md
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+https://github.com/udacity/pdsnd_github
+https://github.com/cyklokoalicia/OpenSourceBikeShare
+https://github.com/adityashrm21/Bike-Sharing-Demand-Kaggle
 
